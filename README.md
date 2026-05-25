@@ -1,18 +1,15 @@
-# IEEE 14-Bus System Static & Dynamic Load Flow Analysis
+# IEEE 14-Bus System Grid Power Flow Analysis
 
-An advanced, cloud-computed power systems engineering framework analyzing grid configurations without requiring local hardware resource provisioning. This repository executes static state verification using a **Newton-Raphson numerical solver** in Python (`PyPSA`) and validates system stability during short-circuit transients using **Simscape Electrical (MATLAB Online)**.
+An advanced, cloud-computed power systems engineering framework executing steady-state analytics on the benchmark IEEE 14-bus grid configuration. This project leverages **Python (`PyPSA`)** and a **Newton-Raphson numerical solver** to calculate exact bus voltage profiles, system line loading, and active/reactive power distributions without requiring local hardware resource provisioning.
 
 ---
 
-## 📁 Repository Configuration Tree
+## 📁 Repository Structure
 ```text
-ieee14-load-flow-analysis/
+ieee14-bus-power-flow-analysis/
 ├── python-pypsa/
-│   ├── IEEE14_Static_Analysis.ipynb    <-- Cloud-computed PyPSA Solver
-│   └── requirements.txt                <-- Static environment dependencies
-├── matlab-online/
-│   ├── ieee14_dynamic_sim.slx          <-- Simscape transient model
-│   └── run_dynamic_analysis.m          <-- Control & plotting script
+│   ├── IEEE14_Static_Analysis.ipynb    <-- Computational Solver & Outputs
+│   └── requirements.txt                <-- Environment dependencies
 ├── .gitignore
 ├── LICENSE
-└── README.md
+└── README.md                           <-- Main Documentation
