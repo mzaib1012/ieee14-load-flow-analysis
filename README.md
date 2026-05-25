@@ -8,6 +8,8 @@ An advanced, cloud-computed power systems engineering framework executing steady
 ```text
 ieee14-bus-power-flow-analysis/
 ├── python-pypsa/
+│   ├── ieee14_line_loading.png         <-- Transmission Loading Plot Asset
+│   ├── ieee14_voltage_profiles.png     <-- Bus Voltage Profile Plot Asset
 │   ├── IEEE14_Static_Analysis.ipynb    <-- Computational Solver & Outputs
 │   └── requirements.txt                <-- Environment dependencies
 ├── .gitignore
